@@ -4,3 +4,20 @@
         Assignment: Fit for Fun Fitness Club
         File Name: styles.css 
 */
+
+label{
+    display: block;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+input{
+    position: absolute;
+    left: 15%;
+    width: 75%;
+}
+
+.submit{
+    width: initial;
+    position: initial;
+}

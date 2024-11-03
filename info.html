@@ -12,4 +12,40 @@
     <title>Fit for Fun Fitness Club</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
+<body>
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="classes.html">Classes Offered</a> |
+        <a href="info.html">More Information</a>
+    </nav>
+    <h1>Sign Up Here</h1>
+    <div class="container">
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <legend>
+                    Sign Up Here
+                </legend>
+            <label for="fname">
+                Name:
+                <input type="text" name="fname" id="fname" required placeholder="First Name" />
+            </label>
+            <label for="lname">
+                Last Name:
+                <input type="text" name="lname" id="lname" placeholder="Last Name" />
+            </label>
+            <label for="email">
+                Email:
+                <input type="email" name="fname" id="email" required placeholder="Email" />
+            </label>
+            <label for="phone">
+                <input type="tel" name="phone" id="phone" required placeholder="Phone Number"/>
+            </label>
+        </fieldset>
+            <input class="submit" type="submit" value="Submit" />
+        </form>
+    </div>
+
+</body>
+
 </html>
