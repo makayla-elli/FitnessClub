@@ -5,6 +5,63 @@
         File Name: styles.css 
 */
 
+html {
+    background-color: antiquewhite;
+}
+
+
+a:visited {
+    color: rgb(79, 40, 20);
+}
+
+a:hover {
+    background-color: rgb(225, 244, 226);
+}
+
+.header {
+    border-radius: 10px;
+    padding: 25px;
+    background-color: burlywood;
+}
+
+.nav {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: burlywood;
+    text-align: center;
+}
+
+.mouse {
+    position: absolute;
+    top: 30px;
+    bottom: auto;
+    right: 20px;
+}
+
+/* index page */
+#why-us-section {
+    border: 3px solid rgb(165, 143, 132);
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 5px;
+    width: 45%;
+    float: right;
+    background-color: rgba(1, 66, 4, 0.109)
+}
+.roundedimage {
+    border-radius: 5%;
+    width: 32%;
+}
+#about {
+    float: left;
+    width: 50%;
+}
+
+/* classes (table) */
+
+
+
+/* info page (form) */
 label{
     display: block;
     padding-bottom: 5px;
@@ -21,3 +78,4 @@ input{
     width: initial;
     position: initial;
 }
+
