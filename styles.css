@@ -38,6 +38,12 @@ a:hover {
     right: 20px;
 }
 
+footer {
+    border-top: 2px solid black;
+    margin-top: 30px;
+    text-align: center;
+}
+
 /* index page */
 #why-us-section {
     border: 3px solid rgb(165, 143, 132);
@@ -101,3 +107,21 @@ input {
     width: initial;
     position: initial;
 }
+
+.reset {
+    width: initial;
+    position: initial;
+}
+
+.return {
+    border: 3px solid black
+}
+
+.container {
+    h1{
+        font-weight: bold;
+        text-decoration-line: underline;
+        font-size: large;
+    }
+}
+

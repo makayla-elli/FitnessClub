@@ -9,6 +9,7 @@
         File Name: info.html 
         -->
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=6">
     <title>Fit for Fun Fitness Club</title>
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -26,28 +27,82 @@
         <form method="get" action="thankyou.html">
             <fieldset>
                 <legend>
-                    Sign Up Here
+                    Personal Info
                 </legend>
-            <label for="fname">
-                Name:
-                <input type="text" name="fname" id="fname" required placeholder="First Name"/>
-            </label>
-            <label for="lname">
-                Last Name:
-                <input type="text" name="lname" id="lname" placeholder="Last Name"/>
-            </label>
-            <label for="email">
-                Email:
-                <input type="email" name="fname" id="email" required placeholder="Email"/>
-            </label>
-            <label for="phone">
-                <input type="tel" name="phone" id="phone" required placeholder="Phone Number"/>
-            </label>
-        </fieldset>
-            <input class="submit" type="submit" value="Submit"/>
+                <label for="fname">
+                    Name:
+                    <input type="text" name="fname" id="fname" required placeholder="First Name" />
+                </label>
+                <label for="lname">
+                    Last Name:
+                    <input type="text" name="lname" id="lname" placeholder="Last Name" />
+                </label>
+                <label for="email">
+                    Email:
+                    <input type="email" name="fname" id="email" required placeholder="Email" />
+                </label>
+                <label for="phone">
+                    Phone:
+                    <input type="tel" name="phone" id="phone" required placeholder="Phone Number" />
+                </label>
+                <!-- next style of question-->
+                <h1>Best Way To Reach you:</h1>
+                <input type="radio" id="email" name="reach_you" value="email">
+                <label for="email">Email</label><br>
+                <input type="radio" id="phone" name="reach_you" value="phone">
+                <label for="phone">Phone</label><br>
+                <input type="radio" id="owl" name="reach_you" value="owl">
+                <label for="owl">Owl</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>
+                    Preferences
+                </legend>
+                <h1>Classes you're interested in...</h1>
+                <form>
+                    <input type="checkbox" id="crosstraining" name="crosstraining" value="cross">
+                    <label for="crosstraining"> Cross Training</label><br>
+                    <input type="checkbox" id="sprint" name="sprint" value="Sprint">
+                    <label for="sprint"> Sprint </label><br>
+                    <input type="checkbox" id="bodypump" name="bodypump" value="Body">
+                    <label for="bodypump"> Body Pump</label>
+                    <input type="checkbox" id="advanced" name="advanced" value="Advanced">
+                    <label for="advanced"> Advanced Cross Training</label>
+                    <input type="checkbox" id="mixed" name="mixed" value="Mixed">
+                    <label for="mixed"> MixedFIT </label>
+                    <input type="checkbox" id="spin" name="spin" value="Spin">
+                    <label for="spin"> Spin </label>
+                    <input type="checkbox" id="combat" name="combat" value="Combat">
+                    <label for="combat"> Body Combat </label>
+                    <input type="checkbox" id="step" name="step" value="Step">
+                    <label for="step"> Step Interval </label>
+                    <input type="checkbox" id="zumba" name="zumba" value="Zumba">
+                    <label for="zumba"> Zumba </label>
+                </form>
+
+                <h1>Preferred Class Time...</h1>
+                <form action="/action_page.php">
+                    <input type="radio" id="am" name="time" value="HTML">
+                    <label for="am">AM</label><br>
+                    <input type="radio" id="pm" name="time" value="CSS">
+                    <label for="pm">PM</label><br>
+                </form>
+            </fieldset>
+
+            <br></form>
+
+            <input class="submit" type="submit" value="Submit" />
+            <input class="reset" type="reset" value="Reset">
+
+
         </form>
     </div>
 
 </body>
+
+<footer>
+    <p>Fit for Fun Fitness Club &copy;2024 </p>
+</footer>
 
 </html>
