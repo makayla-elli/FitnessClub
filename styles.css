@@ -125,10 +125,8 @@ input {
     border: 3px solid black
 }
 
-.container {
-    h1 {
+.specialfont {
         font-weight: bold;
         text-decoration-line: underline;
-        font-size: large;
-    }
+        font-size: medium;
 }
